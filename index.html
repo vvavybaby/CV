@@ -2,32 +2,40 @@
 <html>
 <head> 
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>about me</title>
 <link rel="stylesheet" type="text/css" href="style.css">
 <script src="script.js"></script>
 </head>
 <body> 
 
-<header>
+<header class="header">
     <img src="https://i.pinimg.com/originals/2f/9d/c7/2f9dc75b9a068a06c58e1a2856ad0c1d.jpg" alt="logo" height="55">
     Настя Абрамова
 </header>
 
-<section name="Фото">
-<img src="https://i.pinimg.com/originals/2f/9d/c7/2f9dc75b9a068a06c58e1a2856ad0c1d.jpg" alt="logo" height="55">
-мое фото
-</section>
-<section name="about me">
-    <h3>Обо мне</h3>
-    <div>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, pariatur? Incidunt autem nihil nesciunt non tempora fugit vitae libero a blanditiis laboriosam adipisci architecto exercitationem, earum consectetur illum officia minima.
+<div class="container">
+    <div class="block">
+        <section id="Фото" class="section">
+        <img src="https://i.pinimg.com/originals/2f/9d/c7/2f9dc75b9a068a06c58e1a2856ad0c1d.jpg" alt="logo" height="200">
+        мое фото
+        </section>
     </div>
-    <div>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit, nobis! Eaque, dolor facere. Exercitationem, ea odit esse aliquam fugit fuga placeat pariatur magni praesentium vitae ratione explicabo assumenda minus harum!
-    </div>
-</section>
 
-<section name="study">
+    <div class="block">
+        <section id="about me" class="section">
+            <h3>Обо мне</h3>
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, pariatur? Incidunt autem nihil nesciunt non tempora fugit vitae libero a blanditiis laboriosam adipisci architecto exercitationem, earum consectetur illum officia minima.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit, nobis! Eaque, dolor facere. Exercitationem, ea odit esse aliquam fugit fuga placeat pariatur magni praesentium vitae ratione explicabo assumenda minus harum!</p>
+            </div>
+        </section>
+    </div>
+</div>
+
+
+
+<section id="study" class="section">
     <h3>Образование</h3>
     <ul>
   <li>РУДН</li>
@@ -35,7 +43,7 @@
 </ul>
 </section>
 
-<section name="work">
+<section id="work" class="section">
     <h3>Опыт работы</h3>
     <ul>
   <li>Лето побед</li>
@@ -43,7 +51,7 @@
 </ul>
 </section>
 
-<section name="contacts">
+<section id="contacts" class="section">
     <h3>Контакты</h3>
     <ul>
   <li>7916666699</li>
@@ -53,9 +61,10 @@
 </ul>
 </section>
 
-<footer>
-    лялялял яляляля ляляля 
+<footer class="footer">
+    <div> лялялял яляляля ляляля 
     Москва, 2025
+    </div>
 </footer>
 
 </body>

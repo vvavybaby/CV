@@ -1,0 +1,43 @@
+:root {
+    --primary-color: #3498db;
+    --text-color: #e03535;
+    --bg-color: #c32121;
+    --font-main: 'Roboto', sans-serif;
+    background-color: #ffe6e6;
+}
+
+.section {
+    background-color:#fff5f5;
+    padding: 30px;
+    margin: 45px;
+    border-radius: 10px;
+
+}
+
+.header {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    /*position: fixed;*/
+}
+
+.container {
+    display: flex;
+}
+
+.block { 
+    width: 50%; /* Ширина каждого блока (может быть адаптирована по вашему усмотрению) */ 
+    height: 100%; /* Высота блока (может быть адаптирована по вашему усмотрению) */ 
+} 
+
+
+.footer {
+     /* Подвал как приклеенный */
+  bottom: 0; /* Фиксация снизу */
+  left: 0; /* К началу слева */
+  right: 0; /* Без отступов справа */
+  height: 50px; /* Задаем высоту */
+    background-color: #866969;
+}
